@@ -7,7 +7,6 @@
 
 (executable
   (name plugin_lib_piqi)
-  (deps (file META) plugin_lib_piqi.cmxs)
   (embed_in_plugin_libraries piqirun piqilib piqirun.ext piqirun.pb)
   (flags -linkall)
   (modes (native plugin))
